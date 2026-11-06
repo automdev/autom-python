@@ -3,7 +3,7 @@ requires = ["hatchling>=1.26,<2"]
 build-backend = "hatchling.build"
 
 [project]
-name = "autom"
+name = "automdev"
 version = "0.1.0"
 description = "Official Python SDK for the Autom SERP API."
 readme = "README.md"

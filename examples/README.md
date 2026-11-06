@@ -1,7 +1,7 @@
 # Examples
 
 ```sh
-pip install autom
+pip install automdev
 export AUTOM_API_KEY="YOUR_API_KEY"
 python examples/json_response.py
 ```

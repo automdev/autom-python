@@ -13,7 +13,7 @@ The SDK exposes **23 typed methods**, one per documented endpoint, with blocking
 ## Installation
 
 ```sh
-pip install autom
+pip install automdev
 ```
 
 ## Get your API key
@@ -181,6 +181,20 @@ client = AutomClient(http_client=http_client)
 | `stats()` | GET `/v1/stats` | Infrastructure health for an engine or endpoint over the last hour. Not scoped to your account or tenant. Enabled per account: HTTP 403 mea… |
 | `usage()` | GET `/v1/usage` | Retrieve real-time usage statistics and credit balance for your Autom account. |
 | `yahoo_search()` | GET / POST `/v1/yahoo/search` | Query Yahoo via API and retrieve structured organic results with country and language. |
+
+## All Autom SDKs
+
+| SDK | Package | Install |
+| --- | --- | --- |
+| Node.js | [`@automdev/sdk`](https://www.npmjs.com/package/@automdev/sdk) | `npm install @automdev/sdk` |
+| Python | [`automdev`](https://pypi.org/project/automdev/) | `pip install automdev` |
+| Go | [`autom-go`](https://pkg.go.dev/github.com/automdev/autom-go) | `go get github.com/automdev/autom-go` |
+| .NET | [`Autom`](https://www.nuget.org/packages/Autom) | `dotnet add package Autom` |
+| Ruby | [`autom`](https://rubygems.org/gems/autom) | `gem install autom` |
+| PHP | [`autom/sdk`](https://packagist.org/packages/autom/sdk) | `composer require autom/sdk` |
+| Java | [`autom-java`](https://github.com/automdev/autom-java) | build from source, see its README |
+| CLI | [`@automdev/cli`](https://www.npmjs.com/package/@automdev/cli) | `npm install -g @automdev/cli` |
+| MCP server | [`@automdev/mcp`](https://www.npmjs.com/package/@automdev/mcp) | `npx -y @automdev/mcp` |
 
 ## License
 
